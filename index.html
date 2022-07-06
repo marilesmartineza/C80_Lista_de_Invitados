@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Lista de invitados</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Comfortaa:wght@300;400&family=Fascinate+Inline&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <center>
+            <h1 style="margin-top: 20px; margin-bottom: 20px; ">
+                Lista de invitados
+            </h1>
+            <h2 id="declarar_arrays"></h2>
+            
+            <div id="filas">
+                <span>
+                <input type="text" placeholder="Ingresar nombre" id="nombre_invitado_1">
+                <button onclick="getlist()" id="botón_enviar">Enviar</button>
+            </span>
+                <br>
+                <hr><hr>
+                
+                <span></span>
+                <button onclick="submit()" id="botón_mostrar">Mostrar</button>
+                <div id="mostrar_nombres_con_comas"></div>
+                <br>
+                <hr><hr>
+                
+                <span></span>
+                <input type="text" placeholder="Buscar nombre" id="buscar_nombre">
+                <button onclick="searching()" id="buscar">Buscar</button>
+            </div>
+            <hr><hr>
+             
+            <button onclick="sorting()" id="botón_ordenar">Ordenar</button>
+            <div id="mostrar_nombres_sin_comas"></div>
+
+                <script>
+                    var alfabeto =[];
+                    console.log(alfabeto);
+                    document.getElementById("ver_array_alfabeto").innerHTML = alfabeto;
+                </script>
+               </div>
+            </div>
+        </center>
+
+    </body>
+
+</html>
