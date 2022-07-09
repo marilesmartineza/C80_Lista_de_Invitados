@@ -1,14 +1,13 @@
 nombre_alumno_array = [];
-nombre_alumno_list_array = [];
 
-function getlist(){
+function addEventListener(){
     var name_of_list="";
-    nombre_alumno_list_array.sort();
-    for(var i=0;i<nombre_alumno_list_array.length;i++){
-        name_of_list=name_of_list+ nombre_alumno_list_array[i] + '<br>'
+    nombre_alumno_array.sort();
+    for(var i=0;i<nombre_alumno_array.length;i++){
+        name_of_list=name_of_list+ nombre_alumno_array[i] + '<br>'
     }
     document.getElementById("declarar_arrays").innerHTML = name_of_list;
-    //escribe un nombre de id apropiado como display_menu 
+
 }
 
 function submit()
@@ -65,19 +64,4 @@ function sorting()
     console.log(remover_comas);
 
     document.getElementById("mostrar_nombres_sin_comas").innerHTML = remover_comas;
-}
-
-function searching()
-{
-    var s= document.getElementById("s1").value;
-    var found=0;
-    var j;
-    for(j=0; j<nombre_alumno_array.length; j++)
-        {
-            if(s== nombre_alumno_array[j]){
-                found=found+1;
-            }
-        }
-    document.getElementById("p2").innerHTML="name found "+found+" time/s";
-    console,log("name found "+found+" time/s");
 }
