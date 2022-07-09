@@ -1,41 +1,46 @@
-#botón_enviar
-{
-	margin-top: 20px; 
-	margin-bottom: 20px; 
-}
-#botón_mostrar
-{
-	margin-top: 20px; 
-	margin-bottom: 20px; 
-}
-#botón_ordenar
-{
-	display: none;
-	margin-top: 20px; 
-	margin-bottom: 20px; 
+#title{
+	font-family: "Cookie";
+	font-style: "margin-top: 20px; margin-bottom: 20px; ";
+	font-size: 50px;
 }
 
-input
-{
-	margin: 10px;
+#botón_enviar{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-#mostrar_nombres_con_comas
-{
-	border: 1px solid black;
+
+#botón_mostrar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#botón_ordenar{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+input{
+    margin: 10px;
+}
+
+#mostrar_nombres_con_comas{
+    border: 1px solid black;
     padding: 10px;
-	border-radius: 10px;
+    border-radius: 10px;
     background-color: aquamarine;
     width: 50%;
 }
-
-#mostrar_nombres_sin_comas
-{
-	border: 1px solid black;
+ 
+#mostrar_nombres_sin_comas {
+    border: 1px solid black;
     padding: 10px;
     background-color: lightcoral;
-	border-radius: 10px;
+    border-radius: 10px;
     width: 50%;
 }
+
+
 #display_menu{
     font-family:'Comfortaa';
     font-size: 40cm;
