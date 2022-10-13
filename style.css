@@ -1,0 +1,25 @@
+#botón_enviar
+{
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+}
+#botón_ordenar
+{
+	display: none;
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+}
+
+input
+{
+	margin: 10px;
+}
+
+#mostrar_nombres_sin_comas
+{
+	border: 1px solid #7fd7b8;
+    padding: 10px;
+    background-color: #7fd7b8;
+	border-radius: 10px;
+    width: 300px;
+}
